@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		84913FB21B30EF5500B81A74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84913FB11B30EF5500B81A74 /* main.m */; };
 		84913FB51B30EF5500B81A74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84913FB41B30EF5500B81A74 /* AppDelegate.m */; };
-		84913FB81B30EF5500B81A74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84913FB71B30EF5500B81A74 /* ViewController.m */; };
+		84913FB81B30EF5500B81A74 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84913FB71B30EF5500B81A74 /* RootViewController.m */; };
 		84913FBB1B30EF5500B81A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84913FB91B30EF5500B81A74 /* Main.storyboard */; };
 		84913FBD1B30EF5500B81A74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84913FBC1B30EF5500B81A74 /* Images.xcassets */; };
 		84913FC01B30EF5500B81A74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84913FBE1B30EF5500B81A74 /* LaunchScreen.xib */; };
 		84913FCC1B30EF5500B81A74 /* LocalNotificationsExampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84913FCB1B30EF5500B81A74 /* LocalNotificationsExampleAppTests.m */; };
+		84913FD71B31DE5500B81A74 /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84913FD61B31DE5500B81A74 /* ReminderViewController.m */; };
+		84913FD91B31FB2100B81A74 /* water.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 84913FD81B31FB2100B81A74 /* water.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,17 @@
 		84913FB11B30EF5500B81A74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84913FB31B30EF5500B81A74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84913FB41B30EF5500B81A74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84913FB61B30EF5500B81A74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84913FB71B30EF5500B81A74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84913FB61B30EF5500B81A74 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		84913FB71B30EF5500B81A74 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		84913FBA1B30EF5500B81A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84913FBC1B30EF5500B81A74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84913FBF1B30EF5500B81A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		84913FC51B30EF5500B81A74 /* LocalNotificationsExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalNotificationsExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84913FCA1B30EF5500B81A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84913FCB1B30EF5500B81A74 /* LocalNotificationsExampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationsExampleAppTests.m; sourceTree = "<group>"; };
+		84913FD51B31DE5500B81A74 /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		84913FD61B31DE5500B81A74 /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
+		84913FD81B31FB2100B81A74 /* water.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = water.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +88,11 @@
 			children = (
 				84913FB31B30EF5500B81A74 /* AppDelegate.h */,
 				84913FB41B30EF5500B81A74 /* AppDelegate.m */,
-				84913FB61B30EF5500B81A74 /* ViewController.h */,
-				84913FB71B30EF5500B81A74 /* ViewController.m */,
+				84913FB61B30EF5500B81A74 /* RootViewController.h */,
+				84913FB71B30EF5500B81A74 /* RootViewController.m */,
 				84913FB91B30EF5500B81A74 /* Main.storyboard */,
+				84913FD51B31DE5500B81A74 /* ReminderViewController.h */,
+				84913FD61B31DE5500B81A74 /* ReminderViewController.m */,
 				84913FBC1B30EF5500B81A74 /* Images.xcassets */,
 				84913FBE1B30EF5500B81A74 /* LaunchScreen.xib */,
 				84913FAF1B30EF5500B81A74 /* Supporting Files */,
@@ -96,6 +103,7 @@
 		84913FAF1B30EF5500B81A74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84913FD81B31FB2100B81A74 /* water.aiff */,
 				84913FB01B30EF5500B81A74 /* Info.plist */,
 				84913FB11B30EF5500B81A74 /* main.m */,
 			);
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84913FBB1B30EF5500B81A74 /* Main.storyboard in Resources */,
+				84913FD91B31FB2100B81A74 /* water.aiff in Resources */,
 				84913FC01B30EF5500B81A74 /* LaunchScreen.xib in Resources */,
 				84913FBD1B30EF5500B81A74 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +228,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84913FB81B30EF5500B81A74 /* ViewController.m in Sources */,
+				84913FD71B31DE5500B81A74 /* ReminderViewController.m in Sources */,
+				84913FB81B30EF5500B81A74 /* RootViewController.m in Sources */,
 				84913FB51B30EF5500B81A74 /* AppDelegate.m in Sources */,
 				84913FB21B30EF5500B81A74 /* main.m in Sources */,
 			);
